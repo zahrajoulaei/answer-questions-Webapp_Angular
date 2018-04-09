@@ -1,0 +1,21 @@
+<div class="maindiv container">
+  <h3>home page</h3>
+  <form>
+    <input class="form-control" type="text" name="item" placeholder="add a new question" [(ngModel)]="goalText">
+    <input (click)="addItem()" type="submit" class="btn-success" [value]=btnText>
+  </form>
+  <p>number of questions:{{itemCount}}</p>
+  <ul class="items">
+    <li class="specitem container" *ngFor= "let problem of problems; let i=index">{{i+1}}:{{problem}}
+      <button  class="btn-danger" (click)="deleteItem(i)">X</button>
+      <button  class="btn-warning" (click)="voteItem()">Vote : {{rate}}</button>
+    </li>
+  </ul>
+  <div  class="listofQuestions col-md-12">
+    <ul>
+      <li *ngFor="let question of questions">
+        <app-questions></app-questions>
+      </li>
+    </ul>
+  </div>
+</div>

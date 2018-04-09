@@ -1,0 +1,31 @@
+.maindiv {
+  background-color: cadetblue;
+  border-radius: 12px;
+  max-width: 800px;
+}
+.maindiv ul {
+  list-style: none;
+}
+.listofQuestions ul li {
+  display: inline;
+  text-decoration: none;
+}
+.questionInput {
+  border-radius: 6px;
+  width: 400px;
+  margin-left: 15px;
+}
+.specitem {
+  background-color: royalblue;
+  border-radius: 12px;
+  color: white;
+  width: 500px;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+.specitem button {
+  float: right;
+}
+.btn-success{
+  margin-top: 5px;
+}

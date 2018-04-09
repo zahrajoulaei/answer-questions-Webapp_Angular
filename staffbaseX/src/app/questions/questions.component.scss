@@ -1,0 +1,32 @@
+.maindivQuestion {
+  background-color: cadetblue;
+  border-radius: 12px;
+  max-width: 800px;
+}
+.questionBox {
+  background-color: royalblue;
+  border-radius: 12px;
+  color: white;
+  width: 500px;
+  min-height: 160px;
+  margin-bottom: 10px;
+}
+.questionBox h4,p {
+  padding: 5px 15px ;
+}
+.answerstyle {
+  height: 30px;
+  width:480px;
+  background-color: white;
+  color:black;
+  margin-bottom: 5px;
+  border-radius: 6px;
+}
+.replystyle {
+  width:480px;
+  background-color: white;
+  color:black;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  border-radius: 6px;
+}

@@ -1,0 +1,12 @@
+<div class="questionBox container">
+  <h4>{{title}}</h4>
+  <p>{{description}}</p>
+  <input class="answerInput" type="text" name="item" placeholder="add an answer" [(ngModel)]="answerText">
+  <input (click)="answerItem()" type="submit" class="btn-primary" [value]=replyText>
+  <button class="btn-warning"(click)="voteItem()">Vote : {{rate}}</button>
+  <li  class="replystyle" *ngFor= "let answer of answers">
+    {{answer}}
+    <button class="btn-danger"(click)="deleteItem(i)">X</button>
+    <button class="btn-warning"(click)="voteItem()">Vote : {{rate}}</button>
+  </li>
+</div>

@@ -1,0 +1,23 @@
+ul {
+  list-style: none;
+}
+ul li {
+  display: inline;
+  color: #c6d8bc;
+  font-size: 22px;
+  text-decoration: none;
+}
+p {
+  display: inline;
+}
+a:visited {
+  color: black;
+}
+a{
+  text-decoration: none;
+}
+.appcomponent {
+  display: flex;
+  align-items:center;
+  justify-content:center;
+}
